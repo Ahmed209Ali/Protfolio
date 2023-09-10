@@ -8,6 +8,7 @@
     <title>Protfolio</title>
 <link rel="icon" href="./img/dark-black-background-design-with-stripes_1017-38064.avif">
     <link rel="stylesheet" href="./css/app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
@@ -53,7 +54,7 @@
             <a href="#" class="btn-box" style="--i:9">More About Me</a>
         </div>
 
-        <div class="imge">
+        <div class="imge" data-aos="flip-down">
             <div class="imge1">
                 <img src="./img/WhatsApp Image 2023-09-07 at 12.39.03.jpg" alt="">
             </div>
@@ -66,7 +67,7 @@
 
     <section class="About" id="About">
 
-        <div class="about-img">
+        <div class="about-img" >
             <div class="about-img1">
             <img src="./img/WhatsApp Image 2023-09-07 at 12.39.03.jpg" alt="">
         </div>
@@ -96,7 +97,7 @@
                     My <span>Services</span>
                 </h1>
                 <div class="serves-list">
-                    <div>
+                    <div data-aos="flip-up">
                         <i class="fa-solid fa-code fa-beat" style="color: #05f0ec;"></i>
                         <h2>UI/UX Design</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectus animi voluptatem
@@ -105,7 +106,7 @@
                             consequuntur voluptatum earum alias, eos ipsum sapiente?</p>
                         <a href="#" class="read"> Lern More</a>
                     </div>
-                    <div>
+                    <div data-aos="flip-down">
                         <i class="fa-solid fa-crop-simple fa-beat" style="color: #05f0ec;"></i>
                         <h2>UI/UX Design</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectus animi voluptatem
@@ -114,7 +115,7 @@
                             consequuntur voluptatum earum alias, eos ipsum sapiente?</p>
                         <a href="#" class="read"> Lern More</a>
                     </div>
-                    <div>
+                    <div data-aos="flip-down">
                         <i class="fa-brands fa-apple fa-beat" style="color:#05f0ec;"></i>
                         <h2>UI/UX Design</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectus animi voluptatem
@@ -173,7 +174,7 @@
                 Professional Skills
             </h1>
             <div class="redial-bars1">
-                <div class="redial-bars">
+                <div class="redial-bars" >
                     <svg x="0px" y="0px" viewBox="0 0 200 200">
                         <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
                         <circle class="path-12" cx="100" cy="100" r="80"></circle>
@@ -220,7 +221,7 @@
                 <h2>Latest <span>Project</span></h2>
 
                 <div class="protfolio-content">
-                    <div class="row">
+                    <div class="row" data-aos="flip-up">
                         <img src="./img/4.avif" alt="">
 
                         <div class="layer">
@@ -232,7 +233,7 @@
                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat"></i></a>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row"data-aos="flip-down">
                         <img src="./img/5726865.jpg" alt="">
 
                         <div class="layer">
@@ -244,10 +245,10 @@
                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat"></i></a>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" data-aos="flip-up">
                         <img src="./img/9.avif" alt="">
 
-                        <div class="layer">
+                        <div class="layer" >
                             <h5>UX/UI Design</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, fugiat officia? Repellendus
                                 eos
@@ -264,7 +265,7 @@
 
 
     <section class="contact" id="contact">
-        <div class="contact-text">
+        <div class="contact-text"  data-aos="flip-right">
             <h2>Contact <span>Me</span></h2>
             <h4>Let's Work Together</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sit illum debitis. Quis
@@ -287,7 +288,7 @@
 
         </div>
 
-        <div class="contact-form">
+        <div class="contact-form" data-aos="flip-left">
             <form action="">
                 <input type="text" placeholder="Enter Your Name" required>
                 <input type="email" placeholder="Enter Your Email" required>
@@ -311,6 +312,10 @@
 
 
     <script src="./js/typed.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration:2000});
+      </script>
 </body>
 
 </html>
